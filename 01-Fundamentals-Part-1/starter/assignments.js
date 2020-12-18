@@ -15,3 +15,6 @@ console.log(isIsland);
 console.log(population);
 console.log(langauge);
 */
+/*
+const language = english;
+*/
