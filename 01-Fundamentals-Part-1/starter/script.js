@@ -239,3 +239,87 @@ if (favNum != 21) {
   console.log('why you bad at number choice');
 }
 */
+/*
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if (shouldDrive) {
+//   console.log(`Sarah is able to drive`);
+// } else {
+//   console.log('Someone else should drive...');
+// }
+
+const isTired = false;
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log(`Sarah is able to drive`);
+} else {
+  console.log('Someone else should drive...');
+}
+*/
+// const dolphinsScore = (96 + 108 + 89) / 3;
+// const koalasScore = (88 + 91 + 110) / 3;
+// console.log(dolphinsScore, koalasScore);
+
+// if (dolphinsScore > koalasScore) {
+//   console.log('Dolphins win!');
+// } else if (koalasScore > dolphinsScore) {
+//   console.log('Koalas win!');
+// } else if (koalasScore === dolphinsScore) {
+//   console.log('tie');
+// }
+
+// const day = 'monday';
+
+// switch (day) {
+//   case 'monday':
+//     console.log('plan course structure');
+//     console.log('go to meetup');
+//     break;
+//   case 'tuesday':
+//     console.log('gaming');
+//     break;
+//   case 'wednesday':
+//   case 'thursday':
+//     console.log('write code examples');
+//     break;
+//   case 'friday':
+//     console.log('record vids');
+//     break;
+//   case 'saturday':
+//   case 'sunday':
+//     console.log('relax');
+//     break;
+//   default:
+//     console.log('invalid day');
+// }
+
+// const age = 19;
+
+// age >= 21 ? console.log('drinking good') : console.log('water');
+
+// const drink = age >= 21 ? 'wine' : 'water';
+// console.log(drink);
+
+// let drink2;
+// if (age >= 21) {
+//   drink2 = 'wine';
+// } else {
+//   drink2 = 'water';
+// }
+// console.log(drink2);
+
+// console.log(`I like to drink ${age >= 21 ? 'wine' : 'water'}`);
+
+// const bill = 400;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// console.log(
+//   `The bill was ${bill}, the tip was ${tip}, and the total was ${bill + tip}`
+// );
